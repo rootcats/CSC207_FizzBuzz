@@ -16,4 +16,14 @@ public class Multiples {
         }
         return count;
     }
+
+    static int multiples() {
+        int count=0;
+        for(int i=1;i<1000;i++){
+            if(i%5==0||i%3==0){
+                count++;
+            }
+        }
+        return count;
+    }
 }
